@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+    margin-bottom: 5em;
+}
+
+.banner img{
+    width: 100%;
+    height: 300px;
+    filter: blur(5px);
+}
+
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.heading span{
+    color: lightseagreen
+}
+
+.profile{
+    background-color: lightseagreen;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.myStory{
+    width: 300px;
+    font-family: Poppins;
+}
+
+.myStory h1{
+    font-size: 2em;
+}
+
+.myStory p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.picture-container{
+    padding: 3em 1em 1em 1em;
+}
+
+.picture-container img{
+    width: 300px;
+    border: solid 5px lightgray;
+    border-radius: 50%;
+}
+
+.personalInfo{
+    font-family: Poppins;
+}
+
+.personalInfo h1{
+
+}
